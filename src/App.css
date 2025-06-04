@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+  "Helvetica Neue", sans-serif;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #1e1e1e;
+  padding: 20px;
+}
+
+.chat-container {
+  width: 100%;
+  max-width: 375px;
+  height: 812px;
+  background-color: #e6eef6;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  background-color: #e6eef6;
+}
+
+.time {
+  font-weight: bold;
+}
+
+.status-icons {
+  display: flex;
+  gap: 5px;
+}
+
+.signal,
+.wifi,
+.battery {
+  width: 15px;
+  height: 15px;
+  background-color: #000;
+}
+
+.chat-messages {
+  padding: 15px;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.bot-icon-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.bot-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.message {
+  max-width: 80%;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.bot-message {
+  background-color: #fff;
+  align-self: flex-start;
+  border-radius: 20px;
+  margin-left: 5px;
+}
+
+.selection-area {
+  padding: 15px;
+  background-color: #e6eef6;
+}
+
+.selection-counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.up-arrow {
+  width: 30px;
+  height: 30px;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.symptoms-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.symptom-button {
+  padding: 10px 15px;
+  background-color: #fff;
+  border: 1px solid #4285f4;
+  border-radius: 20px;
+  color: #000;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.symptom-button.selected {
+  background-color: #4285f4;
+  color: #fff;
+}
