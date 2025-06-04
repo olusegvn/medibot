@@ -125,9 +125,9 @@ function App() {
           <div className="selection-area">
             <div className="selection-counter">
               <span>{selectedSymptoms.length} selected</span>
-              <button 
-                className="up-arrow" 
-                onClick={submitSymptoms} 
+              <button
+                className="up-arrow"
+                onClick={submitSymptoms}
                 disabled={loading}
               >
                 {loading ? "..." : "↑"}
