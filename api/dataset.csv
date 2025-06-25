@@ -1,0 +1,29 @@
+symptom_muscle_pain,symptom_dizziness,symptom_fever,symptom_shortness_of_breath,symptom_runny_nose,symptom_loss_of_appetite,symptom_cough,symptom_headache,symptom_nausea,symptom_vomiting,symptom_diarrhea,symptom_chest_pain,symptom_fatigue,symptom_sore_throat,symptom_abdominal_pain,symptom_shivering,symptom_rashes,illness
+0,0,1,0,1,0,1,0,0,0,0,0,0,1,0,0,0,Common Cold
+0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,Common Cold
+0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,Common Cold
+0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,Common Cold
+1,0,1,0,0,0,1,1,0,0,0,0,1,0,0,0,0,Flu
+0,0,1,0,0,0,1,1,0,0,0,0,1,0,0,1,0,Flu
+1,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,Flu
+1,0,1,0,0,1,1,1,0,0,0,0,1,0,0,1,0,Flu
+0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,Food Poisoning
+0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,Food Poisoning
+0,0,1,0,0,0,0,0,1,1,1,0,0,0,1,0,0,Food Poisoning
+0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,Food Poisoning
+0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,Migraine
+0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Migraine
+0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,Migraine
+0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,Migraine
+0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,Allergic Reaction
+0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Allergic Reaction
+0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,Allergic Reaction
+0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,Allergic Reaction
+0,0,1,1,0,1,1,0,0,0,0,0,1,0,0,0,0,COVID-19
+0,0,1,1,0,1,1,0,0,0,0,1,1,0,0,0,0,COVID-19
+0,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,COVID-19
+0,0,1,1,0,0,1,0,0,0,0,0,1,0,0,1,0,COVID-19
+0,0,1,0,0,0,0,0,1,1,1,0,0,0,1,0,0,Stomach Virus
+0,0,1,0,0,0,0,0,1,1,1,0,1,0,1,0,0,Stomach Virus
+0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,Stomach Virus
+0,0,1,0,0,0,0,0,0,1,1,0,0,0,1,1,0,Stomach Virus
